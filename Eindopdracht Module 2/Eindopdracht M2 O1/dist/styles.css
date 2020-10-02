@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #c3cfe2;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.kaart__container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 60px;
+}
+
+.kaart {
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 10px lightgrey;
+}
+
+.kaart__text {
+  background-color: #fff;
+  overflow: hidden;
+  max-width: 100%;
+  width: 400px;
+  padding: 30px 30px 60px 60px;
+  border-radius: 20px 20px 0px 0px;
+  line-height: 30px;
+  font-size: 20px;
+  color: grey;
+}
+
+.kaart__footer {
+  background-color: #686de0;
+  color: #fff;
+  padding: 30px;
+  text-align: center;
+  border-radius: 0px 0px 20px 20px;
+  width: 400px;
+}
+
+.kaart__image {
+  border-radius: 50%;
+  border: solid white 5px;
+  height: 120px;
+  width: 120px;
+  margin-top: -75px;
+}
+
+.kaart__titel {
+  margin: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.kaart__ondertitel {
+  margin: 10px;
+  color: lightgrey;
+  letter-spacing: 4px;
+}
